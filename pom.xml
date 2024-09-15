@@ -12,6 +12,10 @@
     <url>https://spring-petclinic.github.io/</url>
 
     <properties>
+             <prerequisites>
+                      <maven>3.9.9</maven>
+             </prerequisites>
+
 
         <!-- Generic properties -->
         <java.version>1.8</java.version>
