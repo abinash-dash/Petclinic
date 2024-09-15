@@ -544,22 +544,22 @@
             </dependencies>
         </profile>
    </profiles>
-<distributionManagement>
-        <repository>
-            <id>maven-releases</id>
-            <url>http://13.235.95.44:8081/repository/maven-releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>maven-snapshots</id>
-            <url>http://13.235.95.44:8081/repository/maven-snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
+         <distributionManagement>
+                 <repository>
+                     <id>maven-releases</id>
+                     <url>http://13.235.95.44:8081/repository/maven-releases/</url>
+                 </repository>
+                 <snapshotRepository>
+                     <id>maven-snapshots</id>
+                     <url>http://13.235.95.44:8081/repository/maven-snapshots/</url>
+                 </snapshotRepository>
+         </distributionManagement>
     <repositories>
         <repository>
             <id>repository.spring.milestone</id>
             <name>Spring Milestone Repository</name>
             <url>https://repo.spring.io/milestone</url>
         </repository>
-    </repositories>
+     </repositories>
 
 </project>
