@@ -290,16 +290,7 @@
         </dependency>
 
     </dependencies>
-         <distributionManagement>
-        <repository>
-            <id>maven-releases</id>
-            <url>http://13.235.95.44:8081/repository/maven-releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>maven-snapshots</id>
-            <url>http://13.235.95.44:8081/repository/maven-snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
+        
 
     <!-- Maven plugin versions are mentioned in order to guarantee the build reproducibility in the long term -->
     <build>
@@ -562,5 +553,15 @@
             <url>https://repo.spring.io/milestone</url>
         </repository>
      </repositories>
+   <distributionManagement>
+        <repository>
+            <id>maven-releases</id>
+            <url>http://13.235.95.44:8081/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>maven-snapshots</id>
+            <url>http://13.235.95.44:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
 </project>
