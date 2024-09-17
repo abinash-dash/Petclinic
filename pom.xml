@@ -10,12 +10,12 @@
     <packaging>war</packaging>
     <description>A Spring Framework application based on JSP, Spring MVC, Spring Data JPA, Hibernate and JDBC</description>
     <url>https://spring-petclinic.github.io/</url>
-
-    <properties>
-             <prerequisites>
+<prerequisites>
                       <maven>3.9.9</maven>
              </prerequisites>
 
+    <properties>
+             
 
         <!-- Generic properties -->
         <java.version>1.8</java.version>
