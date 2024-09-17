@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Copy the WAR file into the container
-COPY petclinic.war /app/petclinic.war
+COPY target/petclinic.war /app/petclinic.war
 
 # Command to run the application
 CMD ["java", "-jar", "petclinic.war"]
