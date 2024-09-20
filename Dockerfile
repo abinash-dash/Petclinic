@@ -1,11 +1,4 @@
-# Use an official Java runtime as a parent image
-FROM openjdk:17-jdk-slim
+FROM tomcat:9.0
+COPY target/petclinic.war /usr/local/tomcat/webapps/
 
-# Set the working directory
-WORKDIR /app
-
-# Copy the WAR file into the container
-COPY target/petclinic.war /app/petclinic.war
-
-# Command to run the application
-CMD ["java", "-jar", "petclinic.war"]
+EXPOSE 8083
